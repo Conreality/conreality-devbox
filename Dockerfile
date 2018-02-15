@@ -7,7 +7,7 @@ LABEL maintainer="Arto Bendiken <arto@conreality.org>"
 ENV TZ="UTC" LANG="en_US.UTF-8"
 VOLUME /srv
 
-EXPOSE 22
+EXPOSE 22 5900
 
 COPY .docker/motd.txt /etc/motd
 COPY .docker/sshd.sh /usr/local/sbin/sshd

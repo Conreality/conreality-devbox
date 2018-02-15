@@ -3,4 +3,6 @@
 apk add --no-cache \
   bash             \
   dropbear         \
-  su-exec
+  su-exec          \
+  x11vnc@testing   \
+  xvfb
