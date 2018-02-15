@@ -1,0 +1,4 @@
+Welcome to the Conreality development environment!
+
+See <https://wiki.conreality.org/DevBox> for documentation.
+

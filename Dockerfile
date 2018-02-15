@@ -9,6 +9,7 @@ VOLUME /srv
 
 EXPOSE 22
 
+COPY .docker/motd.txt /etc/motd
 COPY .docker/sshd.sh /usr/local/sbin/sshd
 COPY .docker/install.sh ./
 RUN ./install.sh
