@@ -1,3 +1,3 @@
 #!/bin/sh
 
-apk add --no-cache su-exec
+apk add --no-cache bash su-exec

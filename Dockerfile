@@ -13,4 +13,4 @@ RUN ./install.sh
 COPY .docker/entrypoint.sh ./
 ENTRYPOINT ["./entrypoint.sh"]
 
-CMD ["/bin/sh"]
+CMD ["/bin/bash"]
