@@ -14,6 +14,8 @@ RUN ./install.sh
 COPY .docker/motd.txt /etc/motd
 COPY .docker/sudoers.txt /etc/sudoers
 COPY .docker/sshd.sh /usr/local/sbin/sshd
+COPY .docker/x11vncrc.conf /home/admin/.x11vncrc
+COPY .docker/xinitrc.conf /home/admin/.xinitrc
 
 COPY .docker/entrypoint.sh ./
 ENTRYPOINT ["./entrypoint.sh"]
