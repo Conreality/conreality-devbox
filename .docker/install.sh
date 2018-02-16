@@ -5,6 +5,7 @@ apk add --no-cache \
   dropbear         \
   git              \
   joe              \
+  openbox          \
   su-exec          \
   sudo             \
   vim              \
