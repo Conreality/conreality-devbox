@@ -1,0 +1,8 @@
+#!/bin/sh
+export DISPLAY=:0
+
+/usr/bin/Xvfb $DISPLAY -screen 0 1024x768x24 &
+
+/sbin/su-exec admin /usr/bin/openbox-session &
+
+/sbin/su-exec admin /usr/bin/x11vnc
