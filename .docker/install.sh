@@ -10,7 +10,8 @@ apk add --no-cache \
   sudo             \
   vim              \
   x11vnc@testing   \
-  xvfb
+  xvfb             \
+  xterm
 
 # Create group 'admin':
 addgroup -g 1000 admin
