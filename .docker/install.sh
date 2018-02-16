@@ -3,6 +3,7 @@
 apk add --no-cache \
   bash             \
   dropbear         \
+  git              \
   su-exec          \
   sudo             \
   x11vnc@testing   \
