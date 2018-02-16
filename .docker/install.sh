@@ -4,8 +4,10 @@ apk add --no-cache \
   bash             \
   dropbear         \
   git              \
+  joe              \
   su-exec          \
   sudo             \
+  vim              \
   x11vnc@testing   \
   xvfb
 
