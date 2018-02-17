@@ -7,6 +7,7 @@ apk add --no-cache \
   feh              \
   git              \
   joe              \
+  man              \
   mesa-demos       \
   mesa-dri-swrast  \
   openbox          \
