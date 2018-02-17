@@ -55,3 +55,20 @@ Future
   * http://xpra.org/trac/wiki/Xdummy
 
 * Migrate from X to Wayland?
+
+Packages
+--------
+
+* For the SDKs:
+  C#/.NET (``mono``),
+  C++ (``clang``),
+  Elixir (``elixir``),
+  Go (``go``),
+  Kotlin (N/A, ``openjdk8``),
+  Python (``python3``),
+  Ruby (``ruby``),
+  SQL (``postgresql-client``).
+
+* For the GDK: Lua (``lua5.3``).
+
+* OpenCV (``opencv``).
