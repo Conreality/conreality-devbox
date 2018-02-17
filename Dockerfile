@@ -9,8 +9,8 @@ VOLUME /srv
 
 EXPOSE 22 5900
 
-COPY .docker/install.* /root/
-RUN /root/install.sh /root/install.txt
+COPY .docker/install.sh .docker/packages.txt /root/
+RUN /root/install.sh /root/packages.txt
 
 COPY .docker/configure.sh /root/
 RUN /root/configure.sh

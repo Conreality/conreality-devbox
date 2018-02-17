@@ -1,8 +1,10 @@
 bash
+curl
 dropbear
 dropbear-scp
 feh
 git
+gnupg1
 joe
 man
 mesa-demos
@@ -15,5 +17,6 @@ sudo
 tmux
 vim
 x11vnc@testing
-xvfb
 xterm
+xvfb
+xz
