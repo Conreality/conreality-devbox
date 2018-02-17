@@ -44,6 +44,7 @@ Installed Software
 
 * The VIM, JOE, and nano editors.
 * Bash, cURL, Git, GPG, Irssi, Sudo, screen, tmux, xterm, xz.
+* OpenCV libraries.
 * OpenGL demos (mesa-demos).
 
 Configuration

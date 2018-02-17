@@ -10,6 +10,7 @@ man
 mesa-demos
 mesa-dri-swrast
 nano
+opencv-libs
 openbox
 screen
 su-exec
