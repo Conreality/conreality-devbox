@@ -17,7 +17,8 @@ https://wiki.conreality.org/DevBox
 Screenshot
 ==========
 
-Coming soon.
+.. image:: https://raw.githubusercontent.com/conreality/conreality-devbox/master/screenshot.jpg
+   :alt: Conreality DevBox screenshot
 
 Prerequisites
 =============
