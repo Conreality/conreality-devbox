@@ -1,2 +1,7 @@
 #!/bin/sh
+
+# Set the project logo as the desktop background:
+feh --bg-center logo.png --no-fehbg
+
+# Start a GUI terminal session:
 xterm &
