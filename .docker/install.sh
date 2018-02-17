@@ -4,6 +4,7 @@ apk add --no-cache \
   bash             \
   dropbear         \
   dropbear-scp     \
+  feh              \
   git              \
   joe              \
   mesa-demos       \
