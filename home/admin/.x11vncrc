@@ -1,4 +1,4 @@
 desktop 'Conreality DevBox'
-display :0
 forever
 nopw
+quiet

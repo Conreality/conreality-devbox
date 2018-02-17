@@ -1,8 +1,13 @@
 #!/bin/sh
 export DISPLAY=:0
 
-/usr/bin/Xvfb $DISPLAY -screen 0 1024x768x24 &
+# See: https://www.x.org/releases/X11R7.7/doc/man/man1/Xvfb.1.xhtml
+# See: https://en.wikipedia.org/wiki/Xvfb
+/usr/bin/Xvfb $DISPLAY -screen 0 1024x768x24 -cc 4 &
 
+# See: https://en.wikipedia.org/wiki/Openbox
 /sbin/su-exec admin /usr/bin/openbox-session &
 
-/sbin/su-exec admin /usr/bin/x11vnc
+# See: http://www.karlrunge.com/x11vnc/faq.html
+# See: https://en.wikipedia.org/wiki/X11vnc
+/sbin/su-exec admin /usr/bin/x11vnc -display $DISPLAY
