@@ -10,6 +10,7 @@ apk add --no-cache \
   man              \
   mesa-demos       \
   mesa-dri-swrast  \
+  nano             \
   openbox          \
   su-exec          \
   sudo             \
