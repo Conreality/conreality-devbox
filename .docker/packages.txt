@@ -12,6 +12,7 @@ mesa-dri-swrast
 nano
 opencv-libs
 openbox
+postgresql-client
 screen
 su-exec
 sudo

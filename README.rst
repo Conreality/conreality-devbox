@@ -46,6 +46,7 @@ Installed Software
 * Bash, cURL, Git, GPG, Irssi, Sudo, screen, tmux, xterm, xz.
 * OpenCV libraries.
 * OpenGL demos (mesa-demos).
+* PostgreSQL client.
 
 Configuration
 -------------
