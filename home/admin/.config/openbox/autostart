@@ -1,4 +1,5 @@
 #!/bin/sh
+# See: http://openbox.org/wiki/Help:Autostart
 
 # Set the project logo as the desktop background:
 feh --bg-center logo.png --no-fehbg

@@ -6,6 +6,7 @@ export DISPLAY=:0
 # See: https://en.wikipedia.org/wiki/Xvfb
 /sbin/su-exec admin /usr/bin/Xvfb $DISPLAY -screen 0 1024x768x24 -cc 4 +extension GLX &
 
+# See: http://openbox.org/wiki/Help:Contents
 # See: https://en.wikipedia.org/wiki/Openbox
 /sbin/su-exec admin /usr/bin/openbox-session &
 
