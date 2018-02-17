@@ -9,13 +9,17 @@ VOLUME /srv
 
 EXPOSE 22 5900
 
-COPY .docker/install.sh /root/
-RUN /root/install.sh
+COPY .docker/install.* /root/
+RUN /root/install.sh /root/install.txt
+
+COPY .docker/configure.sh /root/
+RUN /root/configure.sh
+
 COPY /etc /etc
 COPY --chown=admin:admin /home/admin /home/admin
 COPY /usr/local /usr/local
 
-COPY .docker/entrypoint.sh /root/
-ENTRYPOINT ["/root/entrypoint.sh"]
+COPY .docker/entrypoint.sh /tmp/
+ENTRYPOINT ["/tmp/entrypoint.sh"]
 
 CMD ["/bin/bash"]
