@@ -5,6 +5,7 @@ apk add --no-cache \
   dropbear         \
   git              \
   joe              \
+  mesa-dri-swrast  \
   openbox          \
   su-exec          \
   sudo             \
