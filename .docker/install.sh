@@ -12,8 +12,10 @@ apk add --no-cache \
   mesa-dri-swrast  \
   nano             \
   openbox          \
+  screen           \
   su-exec          \
   sudo             \
+  tmux             \
   vim              \
   x11vnc@testing   \
   xvfb             \
