@@ -2,6 +2,8 @@
 To-Dos
 ******
 
+* Document build instructions and add a Makefile.
+
 Bugs
 ----
 
@@ -59,6 +61,10 @@ Future
 Packages
 --------
 
+* S6.
+
+* Erlang/OTP.
+
 * For the SDKs:
   C#/.NET (``mono``),
   C++ (``clang``),
@@ -72,3 +78,9 @@ Packages
 * For the GDK: Lua (``lua5.3``).
 
 * OpenCV (``opencv``).
+
+* Qt 5, Android SDK.
+
+* ROS 1 and/or ROS 2 (N/A).
+
+* Gazebo? (N/A).
