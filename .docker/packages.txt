@@ -12,7 +12,7 @@ man
 mesa-demos
 mesa-dri-swrast
 nano
-opencv-libs
+opencv-libs@testing
 openbox
 postgresql-client
 screen
