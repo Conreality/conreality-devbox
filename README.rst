@@ -47,6 +47,7 @@ Installed Software
 * OpenCV libraries.
 * OpenGL demos (mesa-demos).
 * PostgreSQL client.
+* Avahi tools for mDNS browsing.
 
 Configuration
 -------------
