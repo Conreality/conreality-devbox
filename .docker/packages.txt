@@ -5,6 +5,7 @@ dropbear
 dropbear-scp
 feh
 git
+glfw-dev
 gnupg1
 joe
 lua5.3
