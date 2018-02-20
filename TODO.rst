@@ -9,8 +9,6 @@ To-Dos
 Bugs
 ----
 
-* Fix Openbox's ``env: can't execute 'python': No such file or directory``.
-
 * Fix x11vnc crashes.
 
 * Fix key repetition speed in xterms.
