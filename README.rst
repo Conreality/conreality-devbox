@@ -28,7 +28,10 @@ Build Prerequisites
 
 * Docker_
 
-.. _Docker: https://www.docker.com/community-edition
+* `GNU Make`_
+
+.. _Docker:   https://www.docker.com/community-edition
+.. _GNU Make: https://www.gnu.org/software/make/
 
 Features
 ========
@@ -54,6 +57,8 @@ Configuration
 
 * The time zone is UTC (``TZ=UTC``), the locale is UTF-8
   (``LANG=en_US.UTF-8``).
+
+* The default user account is ``admin`` with password ``admin``.
 
 Usage
 =====

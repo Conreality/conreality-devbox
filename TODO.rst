@@ -9,7 +9,7 @@ To-Dos
 Bugs
 ----
 
-* Fix x11vnc's ``env: can't execute 'python': No such file or directory``.
+* Fix Openbox's ``env: can't execute 'python': No such file or directory``.
 
 * Fix x11vnc crashes.
 
@@ -54,18 +54,12 @@ GUI
 
 * http://openbox.org/wiki/Help:Contents#Panels.2C_widgets.2C_desktops.2C_pagers.2C_etc..
 
-Future
-------
+Features
+--------
 
-* Explore VirtualGL?
+* Support browsing of local mDNS services (Avahi?).
 
-  * https://en.wikipedia.org/wiki/VirtualGL
-
-* Explore migration from Xvfb to Xdummy?
-
-  * http://xpra.org/trac/wiki/Xdummy
-
-* Migrate from X to Wayland?
+* Install the `Vulkan SDK <https://www.lunarg.com/vulkan-sdk/>`__.
 
 Packages
 --------
@@ -93,3 +87,14 @@ Packages
 * ROS 1 and/or ROS 2 (N/A).
 
 * Gazebo? (N/A).
+
+* `Dnsmasq <http://www.thekelleys.org.uk/dnsmasq/doc.html>`__ (``dnsmasq``)?
+
+Future
+------
+
+* Explore `VirtualGL <https://en.wikipedia.org/wiki/VirtualGL>`__?
+
+* Explore migration from Xvfb to `Xdummy <http://xpra.org/trac/wiki/Xdummy>`__?
+
+* Migrate from X to `Wayland <https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)>`__?
