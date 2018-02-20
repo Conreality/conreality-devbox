@@ -2,14 +2,30 @@
 To-Dos
 ******
 
+* Cleanly separate the ``make`` and ``make install`` targets (using ``docker tag``).
+
+* Implement the ``make check`` target.
+
 Bugs
 ----
+
+* Fix x11vnc's ``env: can't execute 'python': No such file or directory``.
 
 * Fix x11vnc crashes.
 
 * Fix key repetition speed in xterms.
 
 * Fix a race condition in Xvfb/x11vnc startup.
+
+Build
+-----
+
+* The Makefile directive ``$(wildcard home/admin/*/*)`` ignores hidden files.
+
+Docker
+------
+
+* Build a Docker image with Travis CI.
 
 GUI
 ---
@@ -37,11 +53,6 @@ GUI
   * https://wiki.archlinux.org/index.php/openbox#Menu_icons
 
 * http://openbox.org/wiki/Help:Contents#Panels.2C_widgets.2C_desktops.2C_pagers.2C_etc..
-
-Docker
-------
-
-* Build a Docker image with Travis CI.
 
 Future
 ------
