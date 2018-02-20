@@ -54,3 +54,16 @@ Configuration
 
 * The time zone is UTC (``TZ=UTC``), the locale is UTF-8
   (``LANG=en_US.UTF-8``).
+
+Usage
+=====
+
+::
+
+   $ make && make install
+
+   $ make bash                  # Runs a Bash shell in the terminal
+
+   $ make ssh                   # Runs an SSH server on 127.0.0.1:22
+
+   $ make vnc                   # Runs a VNC server on 127.0.0.1:5900
