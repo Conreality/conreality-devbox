@@ -25,6 +25,10 @@ Docker
 
 * Build a Docker image with Travis CI.
 
+  * https://docs.travis-ci.com/user/docker/
+
+  * https://docs.travis-ci.com/user/build-stages/share-docker-image/
+
 GUI
 ---
 

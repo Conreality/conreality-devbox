@@ -39,8 +39,8 @@ Features
 Network Services
 ----------------
 
-* SSH server (dropbear) listening on exposed port 22.
-* VNC server (x11vnc/xvfb) listening on exposed port 5900.
+* SSH server (``dropbear``) listening on exposed port 22.
+* VNC server (``x11vnc``/``xvfb``) listening on exposed port 5900.
 
 Installed Software
 ------------------
@@ -48,7 +48,7 @@ Installed Software
 * The VIM, JOE, and nano editors.
 * Bash, cURL, Git, GPG, Irssi, Sudo, screen, tmux, xterm, xz.
 * OpenCV libraries.
-* OpenGL demos (mesa-demos).
+* OpenGL demos (``mesa-demos``).
 * PostgreSQL client.
 * Avahi tools for mDNS browsing.
 
