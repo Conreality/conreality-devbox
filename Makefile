@@ -1,4 +1,5 @@
 DOCKER = docker
+XZ     = xz
 
 IMAGE   := conreality/devbox
 VERSION := $(shell cat VERSION)
@@ -10,15 +11,17 @@ all: build
 	$(DOCKER) build -t $(IMAGE) -f $< .
 	@touch $@
 
+dist.tar.xz: .built
+	$(DOCKER) save $(IMAGE) | $(XZ) -1 > $@
+
 build: .built
 
 check:
 	@echo "not implemented" && false # TODO
 
-dist:
-	@echo "not implemented" && false # TODO
+dist: dist.tar.xz
 
-install: build
+install: .built
 
 uninstall:
 	$(DOCKER) image rm $(IMAGE) || true
@@ -30,4 +33,4 @@ distclean: clean
 
 mostlyclean: clean
 
-.PHONY: check dist uninstall clean distclean mostlyclean
+.PHONY: check uninstall clean distclean mostlyclean

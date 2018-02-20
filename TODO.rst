@@ -2,8 +2,6 @@
 To-Dos
 ******
 
-* Document build instructions and add a Makefile.
-
 Bugs
 ----
 
