@@ -33,4 +33,10 @@ distclean: clean
 
 mostlyclean: clean
 
-.PHONY: check uninstall clean distclean mostlyclean
+ssh:
+	$(DOCKER) run --rm -it -p22:22 $(IMAGE) sshd
+
+vnc:
+	$(DOCKER) run --rm -it -p5900:5900 $(IMAGE) vnc
+
+.PHONY: check uninstall clean distclean mostlyclean ssh vnc
