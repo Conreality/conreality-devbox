@@ -67,7 +67,7 @@ Usage
 
    $ make && make install
 
-   $ make bash                  # Runs a Bash shell in the terminal
+   $ make shell                 # Runs a Bash shell in the terminal
 
    $ make ssh                   # Runs an SSH server on 127.0.0.1:22
 

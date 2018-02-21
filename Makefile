@@ -33,14 +33,16 @@ distclean: clean
 
 mostlyclean: clean
 
-bash:
+shell: .built
 	$(DOCKER) run --rm -it $(IMAGE) /bin/bash
 
-ssh:
+ssh: .built
 	$(DOCKER) run --rm -it -p22:22 $(IMAGE) sshd
 
-vnc:
+vnc: .built
 	$(DOCKER) run --rm -it -p5900:5900 $(IMAGE) vnc
 
 .PHONY: check uninstall clean distclean mostlyclean
-.PHONY: bash ssh vnc
+.PHONY: shell ssh vnc
+.SECONDARY:
+.SUFFIXES:
