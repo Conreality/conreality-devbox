@@ -1,6 +1,8 @@
+avahi
 avahi-tools
 bash
 curl
+dbus
 dropbear
 dropbear-scp
 feh
