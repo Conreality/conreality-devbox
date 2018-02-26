@@ -15,9 +15,11 @@ man
 mesa-demos
 mesa-dri-swrast
 nano
-opencv-libs@testing
 openbox
+opencv-libs@testing
 postgresql-client
+s6
+s6-rc
 screen
 su-exec
 sudo
