@@ -6,6 +6,7 @@ feh
 git
 glfw-dev
 gnupg1
+htop
 linux-headers
 lua5.3
 man
