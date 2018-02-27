@@ -33,16 +33,19 @@ distclean: clean
 
 mostlyclean: clean
 
-shell: .built
+boot: .built
+	$(DOCKER) run --rm -it -p22:22/tcp -p5900:5900/tcp $(IMAGE) init
+
+exec-shell: .built
 	$(DOCKER) run --rm -it $(IMAGE) /bin/bash
 
-ssh: .built
-	$(DOCKER) run --rm -it -p22:22 $(IMAGE) sshd
+exec-dropbear: .built
+	$(DOCKER) run --rm -it -p22:22/tcp $(IMAGE) dropbear
 
-vnc: .built
-	$(DOCKER) run --rm -it -p5900:5900 $(IMAGE) vnc
+exec-vnc: .built
+	$(DOCKER) run --rm -it -p5900:5900/tcp $(IMAGE) vnc
 
 .PHONY: check uninstall clean distclean mostlyclean
-.PHONY: shell ssh vnc
+.PHONY: boot exec-shell exec-dropbear exec-vnc
 .SECONDARY:
 .SUFFIXES:
