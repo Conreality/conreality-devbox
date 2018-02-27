@@ -16,6 +16,7 @@ opencv-libs@testing
 postgresql-client
 screen
 sudo
+tcpdump
 tmux
 x11vnc@testing
 xterm
