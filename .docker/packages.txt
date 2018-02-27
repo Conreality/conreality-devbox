@@ -15,6 +15,7 @@ mesa-dri-swrast
 musl-dev
 openbox
 opencv-libs@testing
+opus
 postgresql-client
 screen
 sudo
