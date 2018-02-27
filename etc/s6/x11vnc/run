@@ -1,0 +1,4 @@
+#!/bin/execlineb -WP
+foreground { sleep 2 }
+/sbin/su-exec admin
+/usr/bin/x11vnc -display :0

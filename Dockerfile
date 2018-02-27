@@ -2,6 +2,7 @@ FROM conreality/docker:latest
 
 LABEL maintainer="Arto Bendiken <arto@conreality.org>"
 
+ENV DISPLAY=":0"
 EXPOSE 22 5900
 
 COPY .docker/install.sh .docker/packages.txt /root/

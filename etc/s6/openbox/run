@@ -1,0 +1,4 @@
+#!/bin/execlineb -WP
+foreground { sleep 1 }
+/sbin/su-exec admin
+/usr/bin/openbox-session
