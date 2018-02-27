@@ -42,10 +42,7 @@ exec-shell: .built
 exec-dropbear: .built
 	$(DOCKER) run --rm -it -p22:22/tcp $(IMAGE) dropbear
 
-exec-vnc: .built
-	$(DOCKER) run --rm -it -p5900:5900/tcp $(IMAGE) vnc
-
 .PHONY: check uninstall clean distclean mostlyclean
-.PHONY: boot exec-shell exec-dropbear exec-vnc
+.PHONY: boot exec-shell exec-dropbear
 .SECONDARY:
 .SUFFIXES:

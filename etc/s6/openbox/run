@@ -1,4 +1,10 @@
 #!/bin/execlineb -WP
+importas -i DISPLAY DISPLAY
+
 foreground { sleep 1 }
+
 /sbin/su-exec admin
 /usr/bin/openbox-session
+
+# See: http://openbox.org/wiki/Help:Contents
+# See: https://en.wikipedia.org/wiki/Openbox

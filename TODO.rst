@@ -66,8 +66,6 @@ Features
 Packages
 --------
 
-* S6.
-
 * Erlang/OTP.
 
 * For the SDKs:

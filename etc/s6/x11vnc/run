@@ -1,4 +1,11 @@
 #!/bin/execlineb -WP
+importas -i DISPLAY DISPLAY
+
 foreground { sleep 2 }
+
 /sbin/su-exec admin
-/usr/bin/x11vnc -display :0
+/usr/bin/x11vnc -display $DISPLAY
+
+# See: http://www.karlrunge.com/x11vnc/x11vnc_opts.html
+# See: http://www.karlrunge.com/x11vnc/faq.html
+# See: https://en.wikipedia.org/wiki/X11vnc

@@ -1,3 +1,9 @@
 #!/bin/execlineb -WP
+importas -i DISPLAY DISPLAY
+
 /sbin/su-exec admin
-/usr/bin/Xvfb :0 -screen 0 1024x768x24 -cc 4 +extension GLX
+/usr/bin/Xvfb $DISPLAY -screen 0 1024x768x24 -cc 4 +extension GLX
+
+# See: https://www.x.org/releases/X11R7.7/doc/man/man1/Xvfb.1.xhtml
+# See: https://www.x.org/releases/X11R7.7/doc/man/man1/Xserver.1.xhtml
+# See: https://en.wikipedia.org/wiki/Xvfb
