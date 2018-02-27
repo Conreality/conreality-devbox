@@ -5,10 +5,12 @@ feh
 git
 glfw-dev
 gnupg1
+linux-headers
 lua5.3
 man
 mesa-demos
 mesa-dri-swrast
+musl-dev
 openbox
 opencv-libs@testing
 postgresql-client
