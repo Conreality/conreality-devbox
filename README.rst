@@ -26,12 +26,8 @@ Prerequisites
 Build Prerequisites
 -------------------
 
-* Docker_
-
-* `GNU Make`_
-
-.. _Docker:   https://www.docker.com/community-edition
-.. _GNU Make: https://www.gnu.org/software/make/
+* `Docker <https://www.docker.com/community-edition>`__
+* `GNU Make <https://www.gnu.org/software/make/>`__
 
 Features
 ========
@@ -69,3 +65,15 @@ Usage
    $ make && make install
 
    $ make boot                  # Runs a VNC server on 127.0.0.1:5900
+
+See Also
+========
+
+* `Conreality Docker Image
+   <https://github.com/conreality/conreality-docker>`__
+
+* `Conreality Master Firmware
+   <https://github.com/conreality/conreality-master>`__
+
+* `Conreality Slave Firmware
+   <https://github.com/conreality/conreality-slave>`__
